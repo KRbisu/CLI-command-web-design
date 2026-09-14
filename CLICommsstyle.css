@@ -2,6 +2,7 @@
 
 *{
   box-sizing: border-box;
+  font-family: 'Space Grotesk', sans-serif;
 }
 
 body {
@@ -23,7 +24,7 @@ body {
   background: center url("https://i.imgur.com/a1FaFfJh.jpg"); 
   background-size: cover;
   background-position: center;
-  z-index: -15;
+  z-index: -100;
   background-repeat: repeat;
   filter: brightness(50%);
   
@@ -75,34 +76,11 @@ body {
   text-align: left;
   align-items: center;
   justify-content: center;
-  gap: 0;
+  gap: 10vh;
   text-orientation: upright;
   writing-mode: horizontal-tb;
   padding: 0%;
   margin: auto;
-  width:50%;
-}
-
-.content__header--file-management {
-  min-height: 50px;
-  font-size: 24px;
-  color: whitesmoke;
-  display: flex;
-  text-align: center;
-  align-items: center;
-  justify-content: center;
+  width:100%;
   
-}
-
-
-.content__commands--flags {
-  font-size: 16px;
-  color: whitesmoke;
-  display: flex;
-  text-align: start;
-  align-items: center;
-  justify-content: center;
-  gap: 95px;
-  width: 100%;
-  margin: auto
 }
